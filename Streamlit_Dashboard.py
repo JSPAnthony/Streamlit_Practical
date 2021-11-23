@@ -4,10 +4,8 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 import streamlit.components.v1 as components
-
 # Page set up
-st.set_page_config(layout="wide", initial_sidebar_state="collapsed", page_title='One to One Ventures Dashboard',
-                   page_icon= 'D:/python_Streamlit_Dashboard/ed.jpg')
+st.set_page_config(layout='wide', initial_sidebar_state='collapsed', page_title='One to One Ventures Dashboard')
 
 # Load the available data and overview
 path = "data/dataonline.csv"
